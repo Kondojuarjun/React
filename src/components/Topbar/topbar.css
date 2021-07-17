@@ -1,0 +1,29 @@
+  
+.topbar {
+    background-color: #0a0a0a;
+    height: 8vh;
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 60px;
+    vertical-align: middle;
+    position: fixed;
+    width: 100%;
+    z-index: 10;
+}
+
+.topbar img {
+    height: 100%;
+    margin-left: auto;
+    color: rgb(9, 16, 19)
+}
+
+.topbar-menu {
+    display: flex;
+    align-items: center;
+}
+
+.topbar-menu p {
+    color: white;
+    font-size: 20px;
+    margin: 0 10px;
+}
